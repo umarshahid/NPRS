@@ -1,0 +1,117 @@
+<deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\Umar's PC\Documents\MATLAB\NPRS project\NPRS.prj" location="C:\Users\Umar's PC\Documents\MATLAB\NPRS project" name="NPRS" target="target.webdeploy" target-name="Web App Compiler">
+    <param.appname>NPRS</param.appname>
+    <param.intermediate>${PROJECT_ROOT}\NPRS</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\NPRS</param.files.only>
+    <param.output>D:\MATLAB\NPRS project</param.output>
+    <param.logdir>${PROJECT_ROOT}\NPRS</param.logdir>
+    <param.target.type>subtarget.web.app</param.target.type>
+    <param.user.defined.mcr.options />
+    <param.support.packages />
+    <unset>
+      <param.intermediate />
+      <param.files.only />
+      <param.logdir />
+      <param.target.type />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+    </unset>
+    <fileset.web.main />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\1.jpg</file>
+      <file>${PROJECT_ROOT}\2.jpg</file>
+      <file>${PROJECT_ROOT}\3.jpg</file>
+      <file>${PROJECT_ROOT}\4.jpg</file>
+      <file>${PROJECT_ROOT}\5.jpg</file>
+      <file>${PROJECT_ROOT}\AdvNet.m</file>
+      <file>${PROJECT_ROOT}\AlphaNumaric.mat</file>
+      <file>${PROJECT_ROOT}\data.jpg</file>
+      <file>${PROJECT_ROOT}\data1.png</file>
+      <file>${PROJECT_ROOT}\data2.png</file>
+      <file>${PROJECT_ROOT}\data3.png</file>
+      <file>${PROJECT_ROOT}\data4.png</file>
+      <file>${PROJECT_ROOT}\data5.png</file>
+      <file>${PROJECT_ROOT}\data6.png</file>
+      <file>${PROJECT_ROOT}\Help.pdf</file>
+      <file>${PROJECT_ROOT}\html</file>
+      <file>${PROJECT_ROOT}\logo1.png</file>
+      <file>${PROJECT_ROOT}\logo2.png</file>
+      <file>${PROJECT_ROOT}\net.mat</file>
+      <file>${PROJECT_ROOT}\NPdata.xlsx</file>
+      <file>${PROJECT_ROOT}\NPRS.fig</file>
+      <file>${PROJECT_ROOT}\NPRS.m</file>
+      <file>${PROJECT_ROOT}\project.m</file>
+      <file>${PROJECT_ROOT}\project1.m</file>
+      <file>${PROJECT_ROOT}\test.m</file>
+      <file>${PROJECT_ROOT}\xlsappend.m</file>
+    </fileset.resources>
+    <fileset.depfun />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\NPRS" name="NPRS.ctf" optional="false">C:\Users\Umar's PC\Documents\MATLAB\NPRS project\NPRS\NPRS.ctf</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\Polyspace\R2019a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
