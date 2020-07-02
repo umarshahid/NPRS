@@ -7,3 +7,8 @@ NPRS is matlab based number plate recognition system with a trained (feed forwar
 - Add this to path<br/>
 - Run NPRS.m<br/>
 - Put number plate image directory in text box<br/>
+# GUI display
+<p align="center">
+  <img width="480" height="400" src="results.jpg">
+</p>
+
