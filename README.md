@@ -1,4 +1,4 @@
-# Number Plate Recognition System
+# Number Plate Recognition System Using ANN (ML)
 NPRS is matlab based number plate recognition system with a trained (feed forward) neural network that is capable recognise only Punjab (pakistan) number plates.
 - Tested on MATLAB R2014a
 
