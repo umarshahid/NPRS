@@ -26,6 +26,7 @@ This dataset contains images of alphanumeric characters (0-9 and a-z) for text r
 
 # Content:
 **X:** The feature matrix with dimensions (3600, 400). Each row corresponds to a 20x20 pixel image flattened into a 400-dimensional vector.
+
 **y:** The label matrix with dimensions (3600, 36). Labels are one-hot encoded for 36 classes (0-9 and a-z), where each class has 100 samples.
 
 # Features:
@@ -51,7 +52,7 @@ This Dataset is primarily made for **"Pakistan (Punjab) Number Plates Recognitio
 - Alphanumeric character recognition
 - Optical character recognition (OCR)
 - Machine learning and deep learning experiments for text classification
-- 
+
 # Source:
 This dataset was created for research and educational purposes to facilitate the development and evaluation of text recognition algorithms.
 
