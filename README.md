@@ -15,7 +15,7 @@ NPRS is Machine Learning based number plate recognition system with a trained (f
 
 # Dataset display
 <p align="center">
-  <img width="480" height="400" src="collage.png">
+  <img width="700" height="700" src="collage.png">
 </p>
 
 # Dataset Metadata
